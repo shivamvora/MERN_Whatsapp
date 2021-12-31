@@ -5,6 +5,7 @@ import MoreVertIcon from '@material-ui/icons/MoreVert';
 import { Avatar, IconButton } from '@material-ui/core';
 import './Sidebar.css';
 import { SearchOutlined } from '@material-ui/icons';
+import SidebarChat from './SidebarChat';
 
 const Sidebar = () => {
     return (
@@ -30,7 +31,10 @@ const Sidebar = () => {
                 </div>
             </div>
             <div className="sidebar__chats">
-
+                <SidebarChat />
+                <SidebarChat />
+                <SidebarChat />
+                <SidebarChat />
             </div>
         </div>
     )

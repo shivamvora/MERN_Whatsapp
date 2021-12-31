@@ -6,6 +6,7 @@
 }
 .app__body{
     display: flex;
+    border-radius: 10px;
     background-color: #ededed;
     margin-top: -50px;
     height: 90vh;
